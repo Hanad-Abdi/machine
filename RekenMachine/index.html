@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="NL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rekenmachine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="Rekenmachine">
+      <input id="scherm" maxlength="4" readonly />
+      <div id="Buttons">
+        <button id="plus" onclick="Display('+')">+</button>
+        <button id="zeven" onclick="Display('7')">7</button>
+        <button id="acht" onclick="Display('8')">8</button>
+        <button id="negen" onclick="Display('9')">9</button>
+        <button id="min" onclick="Display('-')">-</button>
+        <button id="vier" onclick="Display('4')">4</button>
+        <button id="vijf" onclick="Display('5')">5</button>
+        <button id="zes" onclick="Display('6')">6</button>
+        <button id="keer" onclick="Display('*')">*</button>
+        <button id="een" onclick="Display('1')">1</button>
+        <button id="twee" onclick="Display('2')">2</button>
+        <button id="drie" onclick="Display('3')">3</button>
+        <button id="delen" onclick="Display('/')">/</button>
+        <button id="punt" onclick="Display('.')">.</button>
+        <button id="nul" onclick="Display('0')">0</button>
+        <button id="is" onclick="Reken('=')">=</button>
+        <button id="delete" onclick="Delete('C')">C</button>
+        <button id="back" onclick="Clear('back')">🔙</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
